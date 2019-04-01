@@ -1,0 +1,238 @@
+
+@media(min-width:320px){
+/*Universal*/
+  html{
+    background-image: none;
+    background-color: #F0ECEE;
+  }
+
+  /*Header*/
+  header, header nav li, .branding {
+    max-width: 1400px;
+  }
+  header{
+    padding-bottom:20px
+  }
+
+body {
+  font-family: 'Fira Sans', sans-serif ;
+}
+
+header{
+  min-height:70px
+}
+header a {
+  color: #88898B;
+  text-decoration: none;
+  font-size:16px;
+  font-weight: 300;
+}
+
+ul {
+  margin-top: 10px;
+  padding:0;
+}
+
+header li .button {
+  color:#FFFFFF;
+  background-color:#FF4850;
+  border: none;
+  box-shadow: none;
+  border-radius: 15px;
+  padding: 10px;
+  width: 100%
+}
+
+.button a {
+  color:#FFFFFF;
+}
+
+header li {
+  padding: 0 0 0 10px;
+}
+
+header .branding h2 {
+  padding: 0 0 0 0;
+
+  font-weight:600;
+}
+
+header nav {
+  margin-top: 10px
+}
+
+header .highlight {
+  color:#FF4850;
+}
+
+header a:hover, a:active {
+  background:#FF4850;
+  padding:10px
+  border-radius:15px
+}
+
+
+/*showcase*/
+
+.showcase .container2 h2 {
+  color: #88898B;
+  font-weight: 300;
+  font-size:20px;
+}
+
+.showcase .container2 h1 {
+  font-weight:600;
+  font-size: 30px;
+}
+
+.showcase .highlight{
+  color:#FF4850;
+}
+
+.button1{
+  color:#FFFFFF;
+  background-color:#FF4850;
+  border: none;
+  box-shadow: none;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  width: 100%;
+}
+
+.showcase .container2 .button1:hover{
+  background color: #CCC;
+}
+}
+
+/*Desktop layout*/
+@media(min-width:768px) {
+  html {
+  background: url('./images/bulldog.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body {
+  font-family: 'Fira Sans', sans-serif ;
+}
+
+/*global*/
+.container{
+  display:flex;
+  justify-content: space-between;
+}
+/*header*/
+header{
+
+  min-height:70px
+}
+header a {
+  color: #88898B;
+  text-decoration: none;
+  font-size:16px;
+  display: inline;
+  font-weight: 300;
+}
+
+ul {
+  margin-top: 10px;
+  padding:0;
+}
+
+header li .button {
+  color:#FFFFFF;
+  background-color:#FF4850;
+  border: none;
+  box-shadow: none;
+  border-radius: 15px;
+  padding: 10px;
+  width: auto;
+}
+
+.button a {
+  color:#FFFFFF;
+}
+
+header li {
+  float:left;
+  display:inline-block;
+  padding: 0 0 0 10px;
+}
+
+header .branding {
+  float: left;
+}
+
+header .branding h2 {
+  display:inline;
+  padding: 0 0 0 0;
+  margin-left: 20px;
+  font-weight:600;
+}
+
+header nav {
+  float:right;
+  margin-top: 10px
+}
+
+header .highlight {
+  color:#FF4850;
+}
+
+header a:hover, a:active {
+  background:#FF4850;
+  padding:10px
+  border-radius:15px
+}
+
+
+/*showcase*/
+
+.showcase .container2 {
+overflow: hidden;
+margin-left: 20px;
+margin-top: 50px;
+margin-right: 650px;
+float: left;
+display: inline;
+overflow-wrap: break-word;
+word-wrap: break-word;
+}
+.showcase .container2 h2 {
+  color: #88898B;
+  font-weight: 300;
+  font-size:20px;
+}
+
+.showcase .container2 h1 {
+  font-weight:600;
+  font-size: 30px;
+}
+
+.showcase .highlight{
+  color:#FF4850;
+}
+
+.button1{
+  color:#FFFFFF;
+  background-color:#FF4850;
+  border: none;
+  box-shadow: none;
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 10px 2px;
+  width: auto;
+}
+
+.showcase .container2 .button1:hover{
+  background color: #CCC;
+}
+}
